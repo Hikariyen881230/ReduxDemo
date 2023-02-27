@@ -6,7 +6,7 @@ import {
   increment,
   decrement,
   incrementByAmount,
-} from '../reducers/CounterSlice';
+} from '../features/Counter/CounterSlice';
 
 function Counter() {
   const [numb, setNumb] = useState(0);
